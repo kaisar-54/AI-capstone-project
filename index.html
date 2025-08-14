@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <title>Digital Disruptors | Majestic Capstone</title>
+</head>
+
+<body>
+<canvas id="sparkles"></canvas>
+
+<nav>
+    <div class="nav-left">
+        <img src="images/logo.png" alt="All Star Code Logo" class="logo">
+        <a href="#title">Digital Disruptors</a>
+    </div>
+    <div class="nav-right">
+        <a href="#Andrew">Andrew</a>
+        <a href="#Darsh">Darsh</a>
+        <a href="#Vincent">Vincent</a>
+        <a href="#Jesus">Jesus</a>
+    </div>
+</nav>
+
+<br><br>
+
+
+<header>Welcome</header>
+<h1></h1>
+
+<main>
+
+<section id='title' class = "DigitalDisruptors">
+    <h2>All Star Code</h2>
+    <p>Here at All Star Code, we are a part of the 2025 Digital Disruptors cohort. Through our 3 Week Summer Intensive, we have gained lots of knowledge and skills on HTML, CSS, and JavaScript. We greatly appreciate All Star Code and staff, for an incredible experience. Here are some of our projects and takeaways from these 3 weeks!</p>
+</section>
+
+<br><br>
+
+<section id= 'Andrew' class = "name">
+    <h2>Andrew</h2>
+    
+    <button class="displayButton">Hide</button>
+    <div class = "links">
+        <ul>
+            <li><strong>GitHub:</strong> <a href="https://github.com/Kaisar-54" target="_blank">Kaisar-54</a></li> 
+            <li><strong>Linkedln:</strong> <a href= "https://www.linkedin.com/in/andrew-wade-95a678379/" target="_blank">Andrew Wade</a></li>
+            <li><strong>My Website:</strong> <a href="https://kaisar-54.github.io/website/">About me</a></li>
+        </ul>
+    </div>
+
+
+    <h3>About me</h3>
+    <div class = "About-me">
+        <p>Hey! I'm Andrew. I am a rising junior at UAG. I Am mainly interested in website building, cybersecurity, IT, and finance. Goals I have for the future is gaining a intership at a tech company or any bigger company to gain experience. Another goal I have for my self is getting into a t20 college and getting a scholarship at one of those schools. Lastly I want to improve my skills with website building and HTML, Js, and CSS.</p>
+
+    </div>
+
+    <div class = "Our-images">
+        <img src = "images/Andrew.png"> 
+    </div>
+
+</section>
+
+<br><br>
+
+<section id= 'Darsh' class = "name">
+    <h2>Darsh</h2>
+
+    <button class="displayButton">Hide</button>
+    <div class = "links">
+        <ul>
+            <li><a href = 'http://github.com/DarshASC25' target = "_blank">GitHub</a></li> 
+            <li><a href = 'https://darshasc25.github.io/personalWebsite/' target = "_blank">Personal Website</a></li>
+            <li><a href = 'https://drive.google.com/file/d/15wqKWnEq_2OIhM2E30zTg_TBruVkwNbu/view?usp=sharing' target = "_blank">Collegeboard Mockup</a></li>
+        </ul>
+    </div>
+
+    <h3>About me</h3>
+    <div class = "About-me">
+        <p>Hi! I'm Darsh. I'm a rising senior at Bensalem High School. I joined All Star Code to not only enhance my coding skills, but also join a tech driven community of like minded individuals that have an interest in computer science. Outside of my education, I enjoy playing tennis and I've done karate for 12 years now! I also enjoy participating in school activites like DECA and NHS. I can confidently say that All Star Code has been a huge help in gaining confidence, skills, and a community! </p>
+    </div>
+
+    <div class = "Our-images">
+        <img src = "images/Darsh.jpg"/>
+    </div>
+
+
+</section>
+
+<br><br>
+
+<section id= 'Vincent' class = "name">
+    <h2>Vincent</h2>
+
+    <button class="displayButton">Hide</button>
+    <div class = "links">
+        <ul>
+            <li><a href = "https://github.com/TrialStine" target=  "_blank">Github</a></li> 
+            <li><a href = 'https://trialstine.github.io/my-website/' target = "_blank">Personal Website</a></li>
+            <li><a href = 'https://www.linkedin.com/in/vincent-cao-07a709379/' target="_blank">Linkin</a></li>
+         </ul>
+
+    </div>
+
+    <h3>About me</h3>
+    <div class="About-me">
+        <p>HI! My name is Vincent. I am currently a rising Junior at McNair Academic High School. I'm the youngest in my family and I love helping kids. I am currently working for the City of Jersey City Youth Department to help kids learn about sports and also attending All Star Code to embrace new things. I also play Varisity/JV Basketball at my school.</p>
+    </div>
+
+
+    <div class = "Our-images">
+        <img src = "images/Vincent.jpg"/>
+    </div>
+</section>
+
+<br><br>
+<!--/* you guys can add comments like this just in case */-->
+
+<section id= 'Jesus' class = "name">
+    <h2>Jesus</h2>
+
+    <button class="displayButton">Hide</button>
+    <div class = "links"> 
+        <ul>
+            <li><a href = ''></a></li> 
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <h3>About me</h3>
+    <div class = "About-me">
+        <p></p>
+    </div>
+   
+
+    <div class = "Our-images"></div>
+</section>    
+</main>
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+<script>
+// Majestic animated sparkles effect
+const canvas = document.getElementById('sparkles');
+if (canvas) {
+    const ctx = canvas.getContext('2d');
+    let w = window.innerWidth, h = window.innerHeight;
+    canvas.width = w;
+    canvas.height = h;
+    let sparkles = [];
+    const sparkleColors = [
+        'rgba(0,180,216,0.8)',
+        'rgba(186,255,255,0.7)',
+        'rgba(255,255,255,0.9)',
+        'rgba(0,212,255,0.7)',
+        'rgba(255,255,255,0.6)'
+    ];
+    function randomSparkle() {
+        return {
+            x: Math.random() * w,
+            y: Math.random() * h,
+            r: Math.random() * 1.8 + 0.8,
+            o: Math.random() * 0.7 + 0.3,
+            color: sparkleColors[Math.floor(Math.random()*sparkleColors.length)],
+            dx: (Math.random()-0.5)*0.3,
+            dy: (Math.random()-0.5)*0.3,
+            twinkle: Math.random()*Math.PI*2
+        };
+    }
+    function createSparkles(num) {
+        sparkles = [];
+        for (let i=0; i<num; i++) sparkles.push(randomSparkle());
+    }
+    function drawSparkles() {
+        ctx.clearRect(0,0,w,h);
+        for (let s of sparkles) {
+            ctx.save();
+            ctx.globalAlpha = s.o * (0.7 + 0.3*Math.sin(Date.now()/400 + s.twinkle));
+            ctx.beginPath();
+            ctx.arc(s.x, s.y, s.r + Math.abs(Math.sin(Date.now()/600 + s.twinkle))*0.7, 0, 2*Math.PI);
+            ctx.fillStyle = s.color;
+            ctx.shadowColor = s.color;
+            ctx.shadowBlur = 12;
+            ctx.fill();
+            ctx.restore();
+            s.x += s.dx;
+            s.y += s.dy;
+            if (s.x < 0 || s.x > w || s.y < 0 || s.y > h) {
+                Object.assign(s, randomSparkle());
+                s.x = Math.random() < 0.5 ? 0 : w;
+                s.y = Math.random() * h;
+            }
+        }
+        requestAnimationFrame(drawSparkles);
+    }
+    function resize() {
+        w = window.innerWidth; h = window.innerHeight;
+        canvas.width = w; canvas.height = h;
+        createSparkles(Math.floor(w*h/3500));
+    }
+    window.addEventListener('resize', resize);
+    resize();
+    drawSparkles();
+}
+</script>
+</body>
+</html>
